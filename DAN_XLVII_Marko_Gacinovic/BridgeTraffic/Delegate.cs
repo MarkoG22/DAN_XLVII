@@ -22,6 +22,7 @@ namespace BridgeTraffic
                 {
                     Console.WriteLine("{0}. {1} - direction: {2}", ++counter, item.Key, item.Value);
                 }
+                Console.WriteLine();
             };
 
             OnVehicles.Invoke();
